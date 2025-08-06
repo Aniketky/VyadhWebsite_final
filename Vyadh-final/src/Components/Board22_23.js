@@ -47,7 +47,7 @@ const Board = () => {
         <ul>
           <a href="https://github.com"><i className="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/avyaya-mishra-ab38a2248/"><i className="fab fa-linkedin"></i></a>
-          <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/avyayamishra?igsh=MzB5bHZiYnUyc2ho"><i className="fab fa-instagram"></i></a>
          
         </ul>
       </div>
@@ -70,7 +70,7 @@ const Board = () => {
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/sharisri/"><i className="fab fa-linkedin"></i></a>
-        <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/sri_hari_be_chill?igsh=ajllcWc5cHF0YTBt"><i className="fab fa-instagram"></i></a>
         
       </ul>
     </div>
@@ -92,7 +92,7 @@ const Board = () => {
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/apoorv-gupta07/"><i className="fab fa-linkedin"></i></a>
-        <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/apoorv_gsw?igsh=MThpdDR3ZmRvOWN6cQ=="><i className="fab fa-instagram"></i></a>
         
       </ul>
     </div>
@@ -115,7 +115,7 @@ const Board = () => {
       <ul>
         <a href="https://github.com/Yogavarshni"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/yogavarshni-d-b48837238"><i className="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/yogavarshni._.0512?igsh=MTNxbjViZWYyeDJ1MA=="><i className="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/_.yogavarshni._?igsh=MXhlaHh4dnF5MTY3aA=="><i className="fab fa-instagram"></i></a>
         
       </ul>
     </div>
@@ -157,7 +157,7 @@ const Board = () => {
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/chikirsha-gulati/"><i className="fab fa-linkedin"></i></a>
-        <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/chikishxtshow?igsh=dzZ4MWVoeWZzb3V4"><i className="fab fa-instagram"></i></a>
         
       </ul>
     </div>
@@ -221,7 +221,7 @@ const Board = () => {
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/ashna-choudhary-b7b87723/"><i className="fab fa-linkedin"></i></a>
-        <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/_oki_bro_?igsh=MTVwZGU2d24xZ3o2ag=="><i className="fab fa-instagram"></i></a>
         
       </ul>
     </div>
