@@ -11,7 +11,7 @@ import Dhruv from "../Assets/Dhruv.JPG";
 import DhruvFront from "../Assets/DhruvFront.png";
 import Jatin from "../Assets/Jatin.JPG";
 import JatinFront from "../Assets/JatinFront.png";
-import Sarthak from "../Assets/Sarthak.JPG";
+import Sarthak from "../Assets/sarthak.jpg";
 import SarthakFront from "../Assets/SarthakFront.png";
 import Yashaswini from "../Assets/Yashaswini.JPG";
 import YashaswiniFront from "../Assets/YashaswiniFront.png";
@@ -43,7 +43,7 @@ const Board = () => {
         </div> }
         <ul>
           <a href="https://github.com"><i className="fab fa-github"></i></a>
-          <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/shreemay-kumar-bhuyan/"><i className="fab fa-linkedin"></i></a>
           <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
          
         </ul>
@@ -66,7 +66,7 @@ const Board = () => {
       </div> }
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/ishaanpothapragada/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>
@@ -87,7 +87,7 @@ const Board = () => {
       </div>
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/dhruv-soni-322616226/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>
@@ -107,7 +107,7 @@ const Board = () => {
       </div>
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/dikshasinghal260503/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>
@@ -131,7 +131,7 @@ const Board = () => {
       </div>
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/jatin-chhabra-b2530828b/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>
@@ -152,7 +152,7 @@ const Board = () => {
       </div>
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/sarthak3011/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>
@@ -174,7 +174,7 @@ const Board = () => {
       </div>
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/yashaswini-shivathaya/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>
@@ -196,7 +196,7 @@ const Board = () => {
       </div>
       <ul>
         <a href="https://github.com"><i className="fab fa-github"></i></a>
-        <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/thearvikumar/"><i className="fab fa-linkedin"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
         
       </ul>

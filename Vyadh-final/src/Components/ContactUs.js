@@ -155,8 +155,7 @@ const ContactUs = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <PhoneIcon className="w-6 h-6" />
-                <a href="tel:+919827036208" className="hover:underline">
-                  +919827036208
+                <a href="tel:+917540012837" className="hover:underline">
                 </a>
               </div>
             </div>
