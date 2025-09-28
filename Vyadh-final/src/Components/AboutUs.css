@@ -14,7 +14,7 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  padding: px 0; /* Add padding to create space around the component */
+  padding: 100px 0; /* Add padding to create space around the component */
 }
 
 #stars, #stars:after {

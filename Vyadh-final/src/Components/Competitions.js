@@ -2,10 +2,10 @@ import React from 'react';
 import './Competitions.css';
 
 const CompetitionCard = ({ frontImage, backImage, link, altText }) => (
-  <div className="group relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] [perspective:1000px] z-10 hover:z-20 m-6">
+  <div className="group relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] [perspective:1000px] z-10 hover:z-20 mx-auto transition-all duration-500">
     <a href={link}>
       <div className="relative w-full h-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-        
+
         {/* Front Side */}
         <div className="absolute inset-0">
           <img
@@ -16,21 +16,23 @@ const CompetitionCard = ({ frontImage, backImage, link, altText }) => (
         </div>
 
         {/* Back Side */}
-        <div className="absolute inset-0 [transform:rotateY(180deg)] [backface-visibility:hidden] overflow-hidden rounded-lg">
-          <div className="hidden sm:flex w-full h-full items-center justify-center">
-            {/* Back image centered on normal screens */}
+        <div className="absolute inset-0 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+          
+          {/* Larger Back Image for Normal Screens */}
+          <div className="hidden sm:block absolute sm:w-[560px] sm:h-[480px] sm:-left-[130px] sm:-top-[100px] sm:-right-[130px] sm:-bottom-[100px] transition-transform duration-500 group-hover:scale-110">
             <img
               src={backImage}
               alt={`${altText} Back`}
-              className="max-w-full max-h-full object-contain rounded-lg shadow-xl"
+              className="w-full h-full object-cover rounded-lg shadow-xl"
             />
           </div>
-          <div className="flex sm:hidden w-full h-full items-center justify-center">
-            {/* Back image centered on small screens */}
+
+          {/* Slightly Enlarged for Small Screens */}
+          <div className="block sm:hidden absolute w-[130%] h-[130%] left-[-15%] top-[-15%] transition-transform duration-500 group-hover:scale-110">
             <img
               src={backImage}
               alt={`${altText} Back`}
-              className="max-w-full max-h-full object-contain rounded-lg shadow-xl"
+              className="w-full h-full object-cover rounded-lg shadow-xl"
             />
           </div>
         </div>
@@ -44,9 +46,7 @@ const Competitions = () => {
     <div className="bg-[#03002A] bg-opacity-0 min-h-screen flex flex-col items-center justify-center text-white p-4 sm:p-8">
       
       {/* Title */}
-      <h1 className="competitions-heading text-center">
-        COMPETITIONS
-      </h1>
+      <h1 className="competitions-heading text-center">COMPETITIONS</h1>
 
       <style jsx>{`
         .competitions-heading {
@@ -87,7 +87,7 @@ const Competitions = () => {
       `}</style>
 
       {/* Image Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-16 lg:gap-24 w-full max-w-7xl px-4 sm:px-16 mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-20 lg:gap-24 w-full max-w-7xl px-4 sm:px-16 mx-auto">
         <CompetitionCard
           frontImage="templates/front1.jpg"
           backImage="templates/back1.jpg"
